@@ -30,9 +30,6 @@ typeof(scraping_date_since)
 
 ###### Harvesting the Tweets ######
 
-First_Search_Term=readline(prompt = "Enter first search term: ")
-Second_Search_Term=readline(prompt = "Enter second search term: ")
-
 First_latlonmil = readline(prompt = "For 1st search term, enter in comma seperated format: 'lat,lon,miles' (e.g. "18.52,73.85,200mi")")
 Second_latlonmil = readline(prompt = "For 2nd search term, enter in comma seperated format: 'lat,lon,miles' (e.g. "18.52,73.85,200mi")")
 
