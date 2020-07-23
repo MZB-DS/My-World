@@ -1,8 +1,3 @@
-
-# coding: utf-8
-
-# In[18]:
-
 import wikipedia as wp
 from wordcloud import WordCloud, STOPWORDS
 from os import path
@@ -32,19 +27,14 @@ def printing_top_word_frequencies():
         for (a,b) in word_count.items():
             if b==y:
                 print((a,b))
-    
-
-
-# In[ ]:
+                
 
 if __name__ == "__main__":
     search_term=input("Enter the search term to form a wordcloud for: ")
     contents=get_wiki(search_term)
     printing_top_word_frequencies()
     create_wordcloud(contents)
-
-
-# In[17]:
+    
 
 def create_wordcloud(text):
     # create numpy araay for wordcloud mask image
